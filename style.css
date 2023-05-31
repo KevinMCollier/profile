@@ -15,7 +15,7 @@ h1 {
   line-height: 40px;
 }
 
-h2 {
+h3 {
   font-family: 'Poppins', sans-serif;
   color: #7E1717;
   font-size: 16px;
@@ -30,6 +30,14 @@ i {
   object-fit: cover;
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img-circle-small {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   overflow: hidden;
 }
